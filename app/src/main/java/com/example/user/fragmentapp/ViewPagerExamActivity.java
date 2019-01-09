@@ -34,6 +34,7 @@ public class ViewPagerExamActivity extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(viewPager);
     }
+
     private List<String> createLowerCaseAlphabetList(){
         List<String> list = new ArrayList<>();
         char ch = 'a';
