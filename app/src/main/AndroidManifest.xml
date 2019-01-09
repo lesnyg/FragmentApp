@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ColorFragmentActivity" />
-        <activity android:name=".FragmentExam1Activity">
-        </activity>
+        <activity android:name=".FragmentExam1Activity" />
         <activity android:name=".ImageFragmentActivity" />
         <activity android:name=".ListViewActivity">
             <intent-filter>
@@ -20,6 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".ViewPagerExamActivity"></activity>
     </application>
 
 </manifest>

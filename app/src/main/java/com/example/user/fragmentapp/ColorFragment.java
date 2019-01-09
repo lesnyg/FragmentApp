@@ -1,16 +1,11 @@
 package com.example.user.fragmentapp;
 
-import android.content.Context;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import java.io.FileDescriptor;
-import java.io.PrintWriter;
 
 public class ColorFragment extends Fragment {
 
@@ -18,6 +13,15 @@ public class ColorFragment extends Fragment {
     //필수
     public ColorFragment() {
     }
+
+    public static ColorFragment newInstance(int color) {
+        ColorFragment colorFragment = new ColorFragment();
+        Bundle bundle = new Bundle();
+        bundle.putInt("color", color);
+        colorFragment.setArguments(bundle);
+        return colorFragment;
+    }
+
 
 
     @Override

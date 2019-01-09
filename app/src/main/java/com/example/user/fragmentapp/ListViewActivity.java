@@ -30,6 +30,8 @@ public class ListViewActivity extends AppCompatActivity {
         mDataList = new ArrayList<>();
         addItem("프래그먼트 연습", "프래그먼트 연습1", FragmentExam1Activity.class);
         addItem("프래그먼트 콜백 연습", "콜백", ImageFragmentActivity.class);
+        addItem("ViewPager", "", ViewPagerActivity.class);
+        addItem("ViewPager 연습", "TabLayout,ViewPager", ViewPagerExamActivity.class);
 
         MyAdapter adapter = new MyAdapter(mDataList);
 
