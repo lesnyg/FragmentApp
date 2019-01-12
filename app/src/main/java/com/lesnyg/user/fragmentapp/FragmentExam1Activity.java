@@ -1,4 +1,4 @@
-package com.example.user.fragmentapp;
+package com.lesnyg.user.fragmentapp;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;

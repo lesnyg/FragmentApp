@@ -1,4 +1,4 @@
-package com.example.user.fragmentapp;
+package com.lesnyg.user.fragmentapp;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -20,7 +20,6 @@ public class ViewPagerExamActivity extends AppCompatActivity {
         setContentView(R.layout.activity_view_pager_exam);
 
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tab);
-        
         ViewPager viewPager = (ViewPager)findViewById(R.id.pager);
 
         List<Fragment> fragmentList = new ArrayList<>();

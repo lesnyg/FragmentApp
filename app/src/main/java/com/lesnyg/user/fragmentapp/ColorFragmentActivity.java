@@ -1,4 +1,4 @@
-package com.example.user.fragmentapp;
+package com.lesnyg.user.fragmentapp;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +18,10 @@ public class ColorFragmentActivity extends AppCompatActivity {
 
         //동적으로 프래그먼트 추가
         ColorFragment colorFragment2 = new ColorFragment();
+
+//        팩토리 패턴을 활용한 프래그먼트 생성
+//        ColorFragment colorFragment3 = ColorFragment.newInstance(Color.YELLOW);
+
         getSupportFragmentManager().beginTransaction().add(R.id.container,colorFragment2)
                 .commit();
     }

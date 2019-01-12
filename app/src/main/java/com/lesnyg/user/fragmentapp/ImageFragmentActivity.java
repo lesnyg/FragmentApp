@@ -1,4 +1,4 @@
-package com.example.user.fragmentapp;
+package com.lesnyg.user.fragmentapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

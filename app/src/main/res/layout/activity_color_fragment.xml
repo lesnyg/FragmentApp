@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".ColorFragmentActivity">
+    tools:context="com.lesnyg.user.fragmentapp.ColorFragmentActivity">
 
     <fragment
         android:id="@+id/color_frag"
-        android:name="com.example.user.fragmentapp.ColorFragment"
+        android:name="com.lesnyg.user.fragmentapp.ColorFragment"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         tools:layout="@layout/activity_color_fragment"

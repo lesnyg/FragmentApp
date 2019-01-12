@@ -1,4 +1,4 @@
-package com.example.user.fragmentapp;
+package com.lesnyg.user.fragmentapp;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -29,6 +29,7 @@ public class ColorFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view  = inflater.inflate(R.layout.fragment_color, container, false);
         view.setBackgroundColor(mColor);
+
         return view;
     }
 

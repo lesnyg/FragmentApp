@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ImageFragmentActivity">
+    tools:context="com.lesnyg.user.fragmentapp.ImageFragmentActivity">
 
     <TextView
         android:id="@+id/message_text"
@@ -15,7 +15,7 @@
 
     <fragment
         android:id="@+id/image_frag"
-        android:name="com.example.user.fragmentapp.ImageFragment"
+        android:name="com.lesnyg.user.fragmentapp.ImageFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

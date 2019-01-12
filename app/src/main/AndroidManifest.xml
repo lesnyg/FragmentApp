@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.user.fragmentapp">
+    package="com.lesnyg.user.fragmentapp">
+
 
     <application
         android:allowBackup="true"
@@ -9,18 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ColorFragmentActivity" />
-        <activity android:name=".FragmentExam1Activity" />
-        <activity android:name=".ImageFragmentActivity" />
-        <activity android:name=".ListViewActivity">
+        <activity android:name="com.lesnyg.user.fragmentapp.ColorFragmentActivity" />
+        <activity android:name="com.lesnyg.user.fragmentapp.FragmentExam1Activity" />
+        <activity android:name="com.lesnyg.user.fragmentapp.ImageFragmentActivity" />
+        <activity android:name="com.lesnyg.user.fragmentapp.ListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ViewPagerActivity" />
-        <activity android:name=".ViewPagerExamActivity"></activity>
+        <activity android:name="com.lesnyg.user.fragmentapp.ViewPagerActivity" />
+        <activity android:name="com.lesnyg.user.fragmentapp.ViewPagerExamActivity"></activity>
     </application>
 
 </manifest>

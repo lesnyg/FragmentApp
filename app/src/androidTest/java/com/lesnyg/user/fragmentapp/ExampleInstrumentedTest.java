@@ -1,4 +1,4 @@
-package com.example.user.fragmentapp;
+package com.lesnyg.user.fragmentapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

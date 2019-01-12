@@ -1,6 +1,5 @@
-package com.example.user.fragmentapp;
+package com.lesnyg.user.fragmentapp;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
